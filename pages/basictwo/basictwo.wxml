@@ -1,0 +1,57 @@
+<view class="container">
+    <view class="content">
+        <image class="headImg" src='{{returnData.background}}'></image>
+        <view class="bk">
+            <view>{{returnData.chat}}</view>
+            <view class="bkUrl">{{returnData.motto}}</view>
+        </view>
+        <view class="section">
+           <view class="secContent">
+                <view class="secTle">联系方式</view>
+                <view class="xinxi">
+                    <view class="e">
+                        <button bindtap="tel" class="but">
+                            <image class="telico"  src="images/tel.png"></image>
+                            <text class="txt">{{returnData.mobile}}</text>
+                        </button>
+                    </view>
+                    <view class="e"  bindtap="copyTBL"  data-text="{{returnData.qq}}">
+                        <button  class="but" >
+                            <image class="telico" src="images/qq.png"></image>
+                            <text selectable='true' class="txt" >{{returnData.qq}}</text>
+                            <text class="clicks">点击复制</text>
+                        </button>
+                    </view>
+                    <view class="e" bindtap="copyTBL"  data-text="{{returnData.weixin}}">
+                        <button class="but">
+                            <image class="telico" src="images/weixin.png"></image>
+                            <text class="txt">{{returnData.weixin}}</text>
+                            <text class="clicks">点击复制</text>
+                         </button>
+                    </view>
+                    
+                    <view class="e" bindtap="copyTBL"  data-text="{{returnData.email}}">
+                        <button class="but">
+                            <image class="telico" src="images/mail.png"></image>
+                            <text class="txt">{{returnData.email}}</text>
+                         </button>
+                    </view>
+                    <view class="e">
+                        <button class="but" bindtap="copyTBL"  data-text="{{returnData.github}}">
+                            <image class="telico" src="images/github.png"></image>
+                            <text class="txt">{{returnData.github}}</text>
+                         </button>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="chat">
+            <view class="secContent">
+                <view class="secTle">在线联系：</view>
+                 <view class="chat">
+                    <button id="onlinebutton" openType="contact" class="but">点击和我聊天</button>
+                </view>
+           </view>
+        </view>
+    </view>
+</view>

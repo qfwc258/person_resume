@@ -1,0 +1,53 @@
+{
+    "pages": [
+        "pages/basic/basic",
+        "pages/basictwo/basictwo",
+        "pages/index/index",
+        "pages/home/home",
+        "pages/mySkill/mySkill",
+        "pages/logs/logs"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#4d91fe",
+        "navigationBarTitleText": "PHP后端开发-王建的简历",
+        "navigationBarTextStyle": "#fff"
+    },
+    "tabBar": {
+        "color": "#818181",
+        "selectedColor": "#4d91fe",
+        "borderStyle": "white",
+        "list": [
+            {
+                "pagePath": "pages/basic/basic",
+                "text": "个人信息",
+                "iconPath": "pages/img/select.png",
+                "selectedIconPath": "pages/img/select1.png"
+            },
+             {
+                "pagePath": "pages/basictwo/basictwo",
+                "text": "联系方式",
+                "iconPath": "pages/img/user.png",
+                "selectedIconPath": "pages/img/user1.png"
+            },
+            {
+                "pagePath": "pages/mySkill/mySkill",
+                "text": "个人技能",
+                "iconPath": "pages/img/skill.png",
+                "selectedIconPath": "pages/img/skill1.png"
+            },
+            {
+                "pagePath": "pages/home/home",
+                "text": "工作经历",
+                "iconPath": "pages/img/exp.png",
+                "selectedIconPath": "pages/img/exp1.png"
+            },
+            {
+                "pagePath": "pages/index/index",
+                "text": "案例",
+                "iconPath": "pages/img/project.png",
+                "selectedIconPath": "pages/img/project1.png"
+            }
+        ]
+    }
+}

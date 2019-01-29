@@ -1,0 +1,87 @@
+.headImg {
+    width: 100vw;
+    height: 25vh;
+}
+
+.bk {
+    width: 90vw;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px #71BFF0;
+    margin-top: -21vh;
+    z-index: 100;
+    position: relative;
+    background-color: #fff;
+    padding: 3vh 0;
+    font-size: .8rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.bkUrl {
+    line-height: 5vh;
+    color: #666;
+    font-weight: 500;
+}
+
+.head {
+    border-radius: 5px;
+    box-shadow: 0 0 10px #71BFF0;
+    width: 90vw;
+    padding: .5rem;
+    background: #fff;
+    margin-top: 10vh;
+    color: #4d91fe;
+}
+
+.container {
+    padding: 0px;
+}
+
+.textTitle {
+    font-size: 1rem;
+    margin-left: -20px;
+    width: 5rem;
+    padding: .5rem 1rem;
+    margin-top: -2.6rem;
+    color: #0271BC;
+}
+
+.titleImg {
+    width: 8rem;
+    height: 2rem;
+    margin-left: -2rem;
+    margin-top: 1rem;
+}
+
+.text {
+    line-height: 1.5rem;
+    font-size: .7rem;
+    color: #666;
+}
+
+.fr {
+    float: right;
+    margin-right: .5rem;
+}
+
+.textTime {
+    color: #0271BC;
+    font-weight: bold;
+}
+
+.textColor {
+    font-weight: bold;
+}
+
+.pro {
+    color: #666;
+}
+
+.proTxt {
+    margin: .5rem 0;
+}
+
+.proTxt span {
+    font-size: .7rem;
+}

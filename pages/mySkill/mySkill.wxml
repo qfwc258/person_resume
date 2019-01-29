@@ -1,0 +1,18 @@
+<view class="container">
+    <image class="headImg" src='{{returnData.background.background}}'></image>
+    <view class="bk">
+        <view>{{returnData.motto.name}}</view>
+        <view class="bkUrl">{{returnData.motto.motto1}}</view>
+    </view>
+    <view class="head">
+        <image class="titleImg" ></image>
+        <view class="textTitle">
+            <text style="border-left:3px solid #4d91fe;padding-left:15px;font-size:.8rem; color:#4d91fe;">{{returnData.motto.motto2}}</text>
+        </view>
+        <view class="pro" wx:for="{{returnData.myskill}}" wx:for-item="item">
+            <view class="proTxt">{{item.english}} <span>{{item.chinese}}</span>
+            </view>
+            <progress active showInfo activeColor="#4d91fe" percent='{{item.percentage}}' strokeWidth="10"></progress>
+        </view>
+    </view>
+</view>

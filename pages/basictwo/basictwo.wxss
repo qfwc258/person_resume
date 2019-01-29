@@ -1,0 +1,137 @@
+.container {
+    padding: 0px;
+}
+
+.section {
+    width: 90vw;
+    margin-left: 5vw;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px #71BFF0;
+    margin-top: -60px;
+    z-index: 100;
+    position: relative;
+    background-color: #fff;
+}
+
+.bk {
+    width: 90vw;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px #71BFF0;
+    margin-top: -21vh;
+    z-index: 100;
+    position: relative;
+    background-color: #fff;
+    padding: 3vh 0;
+    font-size: .8rem;
+    font-weight: bold;
+    color: #333;
+    margin-left: 5vw;
+}
+.bkUrl {
+    line-height: 5vh;
+    color: #666;
+    font-weight: 500;
+}
+
+.headImg {
+    width: 100vw;
+    height: 25vh;
+}
+
+.imgLogo {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -12vh;
+    padding: 0 30px;
+}
+
+.head {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: -8vh;
+}
+
+.textSty {
+    margin-top: -8vh;
+    color: #333;
+    padding-bottom: 5vh;
+}
+
+.jj {
+    color: #999;
+    font-size: .7rem;
+}
+
+.name {
+    line-height: 8vh;
+}
+
+.section {
+    margin-top: 7vh;
+}
+.chat {
+    margin-top: 2vh;
+}
+.secContent {
+    padding: 10px 15px;
+    font-size: .8rem;
+}
+
+.secTle {
+    text-align: left;
+    border-left: 3px solid #4d91fe;
+    padding-left: 15px;
+    color: #4d91fe;
+}
+
+.xinxi {
+    border-top: 1px solid #eee;
+    margin-top: 10px;
+    text-align: left;
+    line-height: 4.5vh;
+    font-size: .7rem;
+    color: #666;
+}
+.kefu {
+     text-align: left;
+    border-left: 3px solid #4d91fe;
+    padding-left: 15px;
+    color: #4d91fe;
+}
+.e {
+    margin-top: 2vh;
+    text-align: left;
+    line-height: 4.5vh;
+    font-size: .7rem;
+    color: #666;
+}
+.telico {
+    margin-top: 1vh;
+    float: left;
+    width: 30px;
+    height: 30px;
+   
+}
+.txt {
+    float: left;
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+    margin-right: 25px;
+    color: #4d91fe;
+}
+.but{
+    height: 40px;
+    box-shadow: 0 0 10px #71BFF0;
+}
+.clicks{
+    float: right;
+    font-size: .6rem;
+    color: #666;
+    margin-top: 2vh;
+}

@@ -1,0 +1,39 @@
+<view class="container">
+    <view class="content">
+        <image class="headImg" src='{{returnData.background}}'></image>
+        <view class="header">
+            <view>
+                <image bindtap="email" class="imgLogo" src="../img/email.png"></image>
+                <image class="head" src='{{returnData.src}}'></image>
+                <image bindtap="tel" class="imgLogo" src="../img/mobile.png"></image>
+            </view>
+            <view class="textSty">
+                <view class="name">{{returnData.name}}</view>
+                <view class="jj">
+                {{returnData.motto1}}
+            </view>
+                <view class="jj">
+                {{returnData.motto2}}
+            </view>
+            </view>
+        </view>
+        <view class="section">
+            <view class="secContent">
+                <view class="secTle">基本信息</view>
+                <view class="xinxi">
+                    <view>{{returnData.college}}</view>
+                    <view>{{returnData.major}}</view>
+                    <view>{{returnData.education}}</view>
+                    <view>{{returnData.age}}</view>
+                    <view>{{returnData.working}}</view>
+                    <view class="e">{{returnData.email}}</view>
+                    <view>{{returnData.mobile}}</view>
+                    <view>{{returnData.job}}</view>
+                </view>
+            </view>
+        </view>
+       
+    </view>
+</view>
+
+    

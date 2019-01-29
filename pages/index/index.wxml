@@ -1,0 +1,28 @@
+<scroll-view scroll-y="true" bindscroll="scroll">
+  <view class="swiper">
+    <swiper indicator-dots="true" autoplay="true" interval="5000" duration="1000">
+      <block wx:for="{{returnData.projectlist}}" wx:for-item="item">
+        <swiper-item>
+          <image src='{{item.image}}' class="slide-image"/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class="mobi_title">
+    <text class="mobi_icon"></text>
+    <text>项目展示</text>
+  </view>
+  <block wx:for="{{returnData.projectlist}}" wx:for-item="item">
+    <view class="list" data-id="{{item.id}}">
+      <view class="list-img">
+        <image class="video-img" mode="scaleToFill" src='{{item.image}}'></image>
+      </view>
+      <view class="list-detail">
+        <view class="list-title"><text>{{item.title}}</text></view>
+        <view class="list-tag"><view class="state">{{item.state}}</view><view class="join">参与人数<text class="list-num">{{item.num}}</text>人</view></view>
+        <view class="list-info"><text>{{item.content}}</text>|<text>{{item.time}}</text></view>
+        <view class="list-infos"><text>{{item.address}}</text></view>
+      </view> 
+    </view>
+  </block>
+</scroll-view>

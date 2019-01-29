@@ -1,0 +1,60 @@
+<view class="container">
+    <image class="headImg" src='{{returnData.background.background}}'></image>
+    <view class="bk">
+        <view>{{returnData.myskillmotto.growup}}</view>
+        <view class="bkUrl">{{returnData.myskillmotto.growmotto}}</view>
+    </view>
+    <view class="section">
+        <view class="secContent">
+            <view class="secTle">工作经历</view>
+            <view class="xinxi one">
+                <view wx:for="{{returnData.company}}" wx:for-item="item">
+                    <view class="time">
+                        <text class="blue"></text>
+                        <text>{{item.times}}</text>
+                    </view>
+                    <view class="text textColor">{{item.company}}<span class="fr look">{{item.list}}</span>
+                    </view>
+                    <view class="textColor textBig">{{item.size}}<span class="fr">{{item.position}}</span>
+                    </view>
+                    <view class="text">{{item.content1}}</view>
+                </view>
+                <view wx:for="{{returnData.companys}}" wx:for-item="item">
+                    <view class="time">
+                        <text class="blue"></text>
+                        <text>{{item.times}}</text>
+                    </view>
+                    <view class="text textColor">{{item.company}}<span class="fr look">{{item.list}}</span>
+                    </view>
+                    <view class="textColor textBig">{{item.size}}<span class="fr">{{item.position}}</span>
+                    </view>
+                    <view class="text">{{item.content1}}</view>
+                    <view class="text">{{item.content2}}</view>
+                    <view class="text">{{item.content3}}</view>
+                    <view class="text">{{item.content4}}</view>
+                </view>
+
+            </view>
+        </view>
+    </view>
+    <view class="section">
+        <view class="secContent">
+            <view class="secTle">项目经验</view>
+            <view class="xinxi">
+                <view>
+                    <view class="text textColor">一.  项目作品：</view>
+                    <view wx:for="{{returnData.project}}" wx:for-item="item">
+                        <view class="text">{{item.project}}</view>
+                    </view>
+                    <view class="text textColor2" wx:for="{{returnData.homeskill}}" wx:for-item="item">
+                        <text class="txtSty">{{item.skill}}</text>
+                    </view>
+                    <view class="text textColor" style="clear:both">二.  项目描述：</view>
+                    <view wx:for="{{returnData.projectdesc}}" wx:for-item="item">
+                        <view class="text">{{item.projectdesc}}</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
